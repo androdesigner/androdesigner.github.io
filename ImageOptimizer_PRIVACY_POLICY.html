@@ -1,90 +1,230 @@
-# Privacy Policy
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="all" />
+  <title>Privacy Policy - Image Optimizer</title>
+  <style>
+    :root {
+      --brand: #0B6FB8;
+      --brand-dark: #085a94;
+      --text: #1f2430;
+      --muted: #5b6472;
+      --line: #e4e8ee;
+      --bg: #f6f8fb;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+    .topbar {
+      background: linear-gradient(135deg, var(--brand) 0%, #0F8A9C 60%, #0F7B6C 100%);
+      color: #fff;
+      padding: 28px 20px;
+    }
+    .topbar .wrap { max-width: 820px; margin: 0 auto; }
+    .brandmark { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; opacity: .9; margin: 0 0 6px; }
+    .topbar h1 { margin: 0; font-size: 26px; font-weight: 650; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 0 20px; }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 28px 30px;
+      margin: -26px auto 40px;
+      box-shadow: 0 8px 30px rgba(16, 40, 70, .06);
+    }
+    .updated { color: var(--muted); font-size: 14px; margin: 0 0 22px; }
+    h2 {
+      font-size: 19px;
+      margin: 30px 0 10px;
+      padding-top: 8px;
+      color: var(--brand-dark);
+    }
+    h2:first-of-type { margin-top: 8px; }
+    p { margin: 0 0 14px; }
+    ul { margin: 0 0 16px; padding-left: 22px; }
+    li { margin: 0 0 8px; }
+    a { color: var(--brand); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    strong { font-weight: 650; }
+    .note {
+      background: #eef5fc;
+      border-left: 4px solid var(--brand);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 0 0 20px;
+    }
+    .note p:last-child { margin-bottom: 0; }
+    code {
+      background: #eef1f5;
+      padding: 1px 6px;
+      border-radius: 5px;
+      font-size: 14px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    }
+    footer {
+      max-width: 820px;
+      margin: 0 auto 50px;
+      padding: 0 20px;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+    }
+    @media (max-width: 560px) {
+      .card { padding: 22px 18px; border-radius: 12px; }
+      .topbar h1 { font-size: 22px; }
+      body { font-size: 15px; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <p class="brandmark">Image Optimizer</p>
+      <h1>Privacy Policy</h1>
+    </div>
+  </header>
 
-_Last updated: replace with your release date._
+  <main class="wrap">
+    <div class="card">
+      <p class="updated">Last updated: October 15, 2026</p>
 
-Image Optimizer ("the app") is designed to process photos entirely on your device. This
-policy explains exactly what the app does and does not do.
+      <p>
+        Image Optimizer (&ldquo;the app&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;) is designed to compress and
+        optimize photos entirely on your device. Your privacy is important to us, and this policy
+        explains clearly what the app does and does not do with your information.
+      </p>
 
-## Summary
+      <div class="note">
+        <p>
+          <strong>In short:</strong> your photos never leave your device. We do not run analytics or
+          crash-reporting services, and we do not collect your personal data. The only network
+          activity is Google AdMob, used to show ads in the free version.
+        </p>
+      </div>
 
-- **Your photos never leave your device.** The app does not upload, transmit, or
-  share your photos or any derived data.
-- **There are no analytics or crash-reporting SDKs.** The only network
-  communication is **Google AdMob**, used to show ads in the free version.
-- **We (the developer) do not collect personal data.** Google AdMob may collect
-  device/advertising identifiers in order to serve ads - see
-  [Advertising](#advertising) below.
-- **Buying Pro removes all ads**, so no ad requests are made.
+      <h2>1. Summary</h2>
+      <ul>
+        <li><strong>Your photos never leave your device.</strong> The app does not upload, transmit, or share your photos or any data derived from them.</li>
+        <li><strong>No analytics or crash-reporting SDKs.</strong> The only network communication is <strong>Google AdMob</strong>, used to display advertisements in the free version.</li>
+        <li><strong>We do not collect personal data.</strong> Google AdMob may process device and advertising identifiers solely to serve ads; see <a href="#advertising">Advertising</a> below.</li>
+        <li><strong>Buying Pro removes all ads,</strong> so no ad requests are made.</li>
+      </ul>
 
-## Information we process (on-device only)
+      <h2>2. Information We Process (On-Device Only)</h2>
+      <p>
+        To find large photos and create smaller copies, the app reads image metadata (such as
+        dimensions, format, and file size) from your photo library, and reads the pixel data of
+        the photos you choose to compress. All of this processing happens locally, within the
+        app on your device. The optimized copies are written to your own storage.
+      </p>
+      <p>
+        The app keeps a small local history containing <strong>metadata only</strong> &mdash; file
+        names, sizes, dimensions, formats, and timestamps. It never stores image contents. You can
+        clear this history at any time from the History screen.
+      </p>
 
-To find large photos and create smaller copies, the app reads image metadata
-(dimensions, format, size) from your photo library and reads the pixel data of
-photos you choose to compress. This processing happens entirely in the app's
-process on your device. The optimized copies are written to your own storage.
+      <h2>3. Permissions</h2>
+      <ul>
+        <li>
+          <code>READ_MEDIA_IMAGES</code> (Android 13+) and <code>READ_EXTERNAL_STORAGE</code>
+          (Android 12 and below): to list photos and read the ones you choose. On Android 14+ you may
+          grant access to selected photos only, and the app supports this.
+        </li>
+        <li>
+          <strong>Photo Picker:</strong> you can always choose individual photos without granting
+          library-wide access.
+        </li>
+        <li>
+          <strong>Original deletion (Pro):</strong> uses the system&rsquo;s own deletion-confirmation
+          dialog. The app can only remove originals after you approve each deletion.
+        </li>
+      </ul>
+      <p>
+        The app also requests <code>INTERNET</code> and <code>ACCESS_NETWORK_STATE</code>, used
+        <strong>solely</strong> so the Google Mobile Ads SDK can fetch advertisements in the free
+        version. It does <strong>not</strong> request camera, microphone, location, contacts, or any
+        other sensitive permission, and it never uploads your photos.
+      </p>
 
-The app keeps a small local history file containing **metadata only** - file
-names, sizes, dimensions, formats, and timestamps. It never stores image bytes
-or your photo contents. You can clear this history at any time from the History
-screen.
+      <h2 id="advertising">4. Advertising</h2>
+      <p>
+        The free version of the app displays advertisements provided by <strong>Google AdMob</strong>
+        (Google Mobile Ads SDK), including a banner and optional rewarded videos. To serve ads,
+        Google and its partners may collect and use device information such as the advertising ID,
+        IP address, and approximate location, and may use it to personalize advertising. This is
+        handled by Google under its own privacy policies:
+      </p>
+      <ul>
+        <li>Google Privacy Policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">https://policies.google.com/privacy</a></li>
+        <li>How Google uses information from partner sites: <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">https://policies.google.com/technologies/partner-sites</a></li>
+      </ul>
+      <p>
+        Where required (for example, in the EEA and UK), a consent prompt is presented before
+        personalized ads are served. You can reset or limit your advertising ID at any time in your
+        device settings.
+      </p>
+      <p>
+        <strong>Buying Pro removes all ads</strong>, which stops the app from requesting
+        advertisements. Your photos continue to be processed entirely on-device and are never
+        uploaded.
+      </p>
 
-## Permissions
+      <h2>5. Purchases</h2>
+      <p>
+        The Pro upgrade is processed by <strong>Google Play Billing</strong>. Google Play handles the
+        transaction; we do not receive or store your payment details. The app only reads whether you
+        own the one-time Pro product. Google&rsquo;s handling of payment data is governed by Google&rsquo;s own
+        privacy policy.
+      </p>
 
-- `READ_MEDIA_IMAGES` (Android 13+) / `READ_EXTERNAL_STORAGE` (Android 12 and
-  below): to list photos and read the ones you choose. On Android 14+ you may
-  grant access to selected photos only; the app supports that.
-- Photo Picker: you can always choose individual photos without granting
-  library-wide access.
-- Original deletion (Pro) requires the system's own deletion-confirmation
-  dialog. The app can only delete originals after you approve each deletion.
+      <h2>6. Data Retention and Deletion</h2>
+      <ul>
+        <li>
+          Photo metadata and local history remain on your device, under your control, and are removed
+          when you clear the history or uninstall the app.
+        </li>
+        <li>
+          No data is retained by the developer, because no data is ever transmitted to the developer.
+          Ad-related data is handled by Google, as described in <a href="#advertising">Advertising</a>.
+        </li>
+      </ul>
 
-The app also requests `INTERNET` and `ACCESS_NETWORK_STATE`, used **solely** so
-the Google Mobile Ads SDK can fetch advertisements in the free version. It does
-**not** request camera, microphone, location, contacts, or any other sensitive
-permission, and it never uploads your photos.
+      <h2>7. Children&rsquo;s Privacy</h2>
+      <p>
+        The app is a general-purpose utility and is not directed at children. The developer collects
+        no personal data. Advertising is provided by Google AdMob as described above. If you require
+        an ad-free, child-directed experience, please contact us.
+      </p>
 
-## Advertising
+      <h2>8. Changes to This Policy</h2>
+      <p>
+        If this policy changes, the updated version will be made available with the app and at this
+        page. We encourage you to review this policy periodically.
+      </p>
 
-The free version of the app displays advertisements supplied by **Google AdMob**
-(Google Mobile Ads SDK): a banner and optional rewarded videos. To serve ads,
-Google and its partners may collect and use device information such as the
-advertising ID, IP address, and approximate location, and may use it to
-personalise ads. This is handled by Google under its own policies:
+      <h2>9. Contact</h2>
+      <p>
+        If you have any questions about this privacy policy or the app, please contact the developer:
+      </p>
+      <ul>
+        <li><strong>Developer:</strong> androdesigner</li>
+        <li><strong>Email:</strong> <a href="mailto:help.androdesigner@gmail.com">help.androdesigner@gmail.com</a></li>
+      </ul>
+    </div>
+  </main>
 
-- Google Privacy Policy: https://policies.google.com/privacy
-- How Google uses information: https://policies.google.com/technologies/partner-sites
-
-Where required (for example, in the EEA/UK), a consent prompt is shown before
-personalised ads are served. You can reset or limit your advertising ID in your
-device settings at any time.
-
-**Buying Pro removes all ads**, which stops the app from requesting ads. Your
-photos are still processed entirely on-device and are never uploaded.
-
-## Purchases
-
-The Pro upgrade is processed by **Google Play Billing**. Google Play handles the
-transaction; we do not receive or store your payment details. The app only reads
-whether you own the one-time Pro product. Google's handling of payment data is
-governed by Google's own privacy policy.
-
-## Data retention and deletion
-
-- Photo metadata and local history remain on your device under your control and
-  are removed when you clear history or uninstall the app.
-- No data is retained by the developer, because no data is ever transmitted to
-  the developer. Ad-related data is handled by Google (see Advertising).
-
-## Children
-
-The app is a general-purpose utility and is not directed at children. The
-developer collects no personal data. Ad serving is provided by Google AdMob as
-described above; if you need an ad-free, children-directed experience, contact us.
-
-## Changes
-
-If this policy changes, the updated version will be included with the app.
-
-## Contact
-
-Replace with your support email / developer contact before publishing.
+  <footer>
+    &copy; 2026 Image Optimizer. All rights reserved.
+  </footer>
+</body>
+</html>
